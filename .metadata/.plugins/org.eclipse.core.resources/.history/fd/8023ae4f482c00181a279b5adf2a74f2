@@ -1,0 +1,41 @@
+package com.function.generic;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class TestFinal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final HashMap<Integer, Integer> ref = new HashMap<Integer, Integer>();
+		ref.put(new Integer(1), new Integer(23));
+		ref.put(new Integer(5), new Integer(25));
+		ref.put(new Integer(2), new Integer(2));
+		ref.put(new Integer(3), new Integer(123));
+		
+		//ref.forEach((k,v)-> System.out.println(k+":"+v));
+		
+		TreeMap<Object, Object> refT = new TreeMap<Object, Object>();
+		for(Map.Entry m:ref.entrySet()) {
+			refT.put(m.getValue(), m.getKey());
+		}
+		System.out.println("Sorted by values "+refT);
+		/*refT.forEach((k,v)-> System.out.println(k+":"+v));*/
+		
+		
+		HashSet<Integer> hsSet = new HashSet<Integer>();
+		hsSet.add(3);
+		hsSet.add(1);
+		
+		Object[] a = new int[10];
+		
+		hsSet.toArray();
+		
+		Collections.sort(a);
+
+	}
+
+}

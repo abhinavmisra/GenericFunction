@@ -1,0 +1,10 @@
+package com.function.generic;
+
+public class FilePropertiesRename {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

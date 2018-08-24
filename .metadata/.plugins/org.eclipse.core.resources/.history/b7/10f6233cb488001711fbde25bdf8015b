@@ -1,0 +1,19 @@
+package com.function.generic;
+
+public class VerifyStringContainsInt {
+	
+	public static boolean check(String text) {
+		for (int i = 0; i < text.length(); i++) {
+		      if (!Character.isDigit(text.charAt(i)))
+		        return false;
+		    }
+		    return true;
+		  }
+		 
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		VerifyStringContainsInt.check("abc1");
+	}
+
+}

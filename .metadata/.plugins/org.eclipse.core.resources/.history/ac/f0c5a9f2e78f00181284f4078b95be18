@@ -1,0 +1,55 @@
+package com.function.generic;
+
+import java.io.File;
+import java.io.IOException;
+
+public class FileRename {
+	
+	/*public int getCountOfFilesInDir(File file) {
+		int noOfFiles = 0;
+		File[] files = file.listFiles();
+		  for (File f : files)
+		    if (f.isDirectory())
+		    	noOfFiles += getCountOfFilesInDir(f);
+		    else
+		    	noOfFiles++;
+		return noOfFiles;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileRename fileRename = new FileRename();
+		File file = new File("D:\\Radian");
+		System.out.println("***Count is "+fileRename.getCountOfFilesInDir(file));
+	}
+*/
+	
+	public static void main(String[] argv) throws IOException
+    {
+        // Path of folder where files are located
+        String folder_path =
+               "D:\\Radian";
+ 
+        // creating new folder
+        File myfolder = new File(folder_path);
+ 
+        File[] file_array = myfolder.listFiles();
+        for (int i = 0; i < file_array.length; i++)
+        {
+ 
+            if (file_array[i].isFile())
+            {
+            	int j = 1;
+                File myfile = new File(folder_path +
+                         "\\" + file_array[i].getName());
+                String long_file_name = file_array[i].getName();
+                String new_file_name = "Parallel6_";
+                System.out.println(long_file_name);
+                System.out.print(new_file_name);
+                myfile.renameTo(new File(folder_path +
+                             "\\" + new_file_name +j+ ".xml"));
+                j++;
+            }
+        }
+    }
+}

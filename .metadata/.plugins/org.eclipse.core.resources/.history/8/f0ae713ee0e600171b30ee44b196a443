@@ -1,0 +1,33 @@
+package com.function.generic;
+
+ class test{
+	public int sum(int a, int b) {
+		int total = a+b;
+		return total;
+	}
+	
+	public int sum(int c, int d)	{
+		int total1 = b+a;
+		return total1;
+	}
+}
+
+public class StringArgsTest {
+
+	public static void main(String[] dev) {
+		// TODO Auto-generated method stub
+		final int a = 10;
+		int b = a;
+		b++;
+		dev = new String[2];
+		dev[0] = "text";
+		int num = dev.length;
+		System.out.println("String arguments passed while running this Java Program : "+num);
+		System.out.println(b);
+		for(String argument : dev)
+			{ 
+			System.out.println(argument); 
+			
+			}
+	}
+	}

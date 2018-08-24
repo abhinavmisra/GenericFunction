@@ -1,0 +1,4 @@
+FrameworkMavem\JBehave\pages\DictionaryPage.class
+FrameworkMavem\JBehave\steps\serenity\EndUserSteps.class
+FrameworkMavem\JBehave\AcceptanceTestSuite.class
+FrameworkMavem\JBehave\steps\DefinitionSteps.class

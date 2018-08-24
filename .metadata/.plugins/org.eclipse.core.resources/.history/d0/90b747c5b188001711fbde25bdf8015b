@@ -1,0 +1,5 @@
+package com.function.generic;
+
+public class VerifyStringContainsInt {
+
+}

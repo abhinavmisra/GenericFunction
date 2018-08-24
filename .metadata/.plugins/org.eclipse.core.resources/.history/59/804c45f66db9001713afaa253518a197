@@ -1,0 +1,21 @@
+package com.function.generic;
+
+public class CommaSeperatedValue {
+	
+	public static String[] splitByComma() {
+		String names = "SDE,ETMF";
+		String[] namesList = names.split(",");
+		return namesList;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] value = CommaSeperatedValue.splitByComma();
+		System.out.println("Size of the array string is "+value.length);
+		System.out.println("Value at position is "+value[1]);
+		for(String name : value) {
+			System.out.println("The values are "+name);
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.hometask.five&apos; to &apos;GenericFunctions/src&apos;&#x0D;&#x0A;- Original project: &apos;HomeTask5&apos;&#x0D;&#x0A;- Destination element: &apos;GenericFunctions/src&apos;&#x0D;&#x0A;- Original element: &apos;HomeTask5/src/com.hometask.five&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=GenericFunctions/src" element1="/src&lt;com.hometask.five" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1517919247652" version="1.0"/>
+</session>

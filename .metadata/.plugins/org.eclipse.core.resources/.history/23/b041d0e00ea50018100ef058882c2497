@@ -1,0 +1,27 @@
+package com.function.generic;
+
+
+class A {
+	
+	public void method1() {
+		System.out.println("Method 1 of super class");
+	}
+}
+
+class B extends A {
+	@Override
+	public void method1() {
+		System.out.println("Method 1 of sub class");
+	}
+}
+
+public class TestRunPoly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A ref = new B();
+		ref.method1();
+
+	}
+
+}

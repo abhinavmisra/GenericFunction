@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.function.generic.ComparatorClass&apos; to &apos;ComparableClass&apos;&#x0D;&#x0A;- Original project: &apos;GenericFunctions&apos;&#x0D;&#x0A;- Original element: &apos;com.function.generic.ComparatorClass&apos;&#x0D;&#x0A;- Renamed element: &apos;com.function.generic.ComparableClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ComparatorClass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.function.generic{ComparatorClass.java[ComparatorClass" matchStrategy="1" name="ComparableClass" qualified="false" references="true" similarDeclarations="false" stamp="1517484491409" textual="false" version="1.0"/>
+</session>

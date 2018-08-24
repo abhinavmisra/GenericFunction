@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="FrameworkMavem.JBehave.AcceptanceTestSuite" time="48.867" tests="12" errors="3" skipped="4" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Abhinav_Mishra\eclipse-workspace\JBehave"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Abhinav_Mishra\eclipse-workspace\JBehave"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ABHINA~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Abhinav_Mishra\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2355005701252583359.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Abhinav_Mishra\AppData\Local\Microsoft\WindowsApps;;C:\Users\Abhinav_Mishra\Downloads\eclipse-jee-oxygen-R-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Abhinav_Mishra"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Abhinav_Mishra"/>
+    <property name="java.class.path" value="/C:/Users/Abhinav_Mishra/Downloads/eclipse-jee-oxygen-R-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Abhinav_Mishra\eclipse-workspace\JBehave\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.097"/>
+  <testcase name="Given the user is on the Wikionary home page" classname="FrameworkMavem.JBehave.steps.DefinitionSteps" time="21.964">
+    <error message="Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: net.thucydides.core.webdriver.UnsupportedDriverException: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: java.lang.NullPointerException
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+</error>
+    <system-out><![CDATA[Running story stories/consult_dictionary/LookupADefinition.story
+Lookup a definition
+(stories/consult_dictionary/LookupADefinition.story)
+Narrative:
+In order to talk better
+As a n English student
+I want to look up word definitions
+Scenario: Looking up the definition of 'apple'
+Using timeout for story LookupADefinition.story of 300 secs.
+Given the user is on the Wikionary home page (FAILED)
+(net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver)
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 1487500813story running with path stories/consult_dictionary/LookupADefinition.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Lookup a definition
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Looking up the definition of 'apple'
+-------------------------------------------------------------------(stories/consult_dictionary/LookupADefinition.story;Looking up the definition of 'apple')
+1503484481870	addons.manager	DEBUG	Application has been upgraded
+1503484482338	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1503484482346	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1503484482354	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1503484482359	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1503484482360	addons.manager	DEBUG	Starting provider: XPIProvider
+1503484482362	addons.xpi	DEBUG	startup
+1503484482364	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\ABHINA~1\AppData\Local\Temp\anonymous8084310843757806897webdriver-profile\extensions\fxdriver@googlecode.com
+1503484482366	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\ABHINA~1\AppData\Local\Temp\anonymous8084310843757806897webdriver-profile\extensions\webdriver-staging
+1503484482366	addons.xpi	INFO	Removing all system add-on upgrades.
+1503484482368	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1503484482391	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1503484482391	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1503484482392	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1503484482392	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1503484482392	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1503484482419	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1503484482420	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1503484482420	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1503484482420	addons.xpi	DEBUG	checkForChanges
+1503484482450	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1503484482451	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1503484482452	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com in app-profile
+1503484482453	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1503484482457	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1503484482458	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1503484482459	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1503484482460	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1503484482461	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1503484482461	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1503484482462	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1503484482463	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1503484482464	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1503484482464	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1503484482464	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1503484482465	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503484482465	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\ABHINA~1\\AppData\\Local\\Temp\\anonymous8084310843757806897webdriver-profile\\extensions\\fxdriver@googlecode.com","st":1503484474606,"mt":1503484474591}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","st":1498667065000},"e10srollout@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1498667065000},"firefox@getpocket.com":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1498667066000},"screenshots@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","st":1498667067000},"webcompat@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","st":1498667066000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1498667065000}}}
+1503484482560	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\ABHINA~1\AppData\Local\Temp\anonymous8084310843757806897webdriver-profile\extensions.json
+1503484482565	addons.xpi-utils	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1503484482677	addons.xpi	WARN	Add-on fxdriver@googlecode.com is not correctly signed.
+1503484482682	addons.xpi	WARN	Add-on fxdriver@googlecode.com is not correctly signed.
+1503484482691	DeferredSave.extensions.json	DEBUG	Save changes
+1503484482692	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1503484482702	DeferredSave.extensions.json	DEBUG	Starting timer
+1503484482705	DeferredSave.extensions.json	DEBUG	Save changes
+1503484482705	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1503484482710	DeferredSave.extensions.json	DEBUG	Save changes
+1503484482711	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1503484482731	DeferredSave.extensions.json	DEBUG	Save changes
+1503484482731	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1503484482754	DeferredSave.extensions.json	DEBUG	Starting write
+1503484482839	DeferredSave.extensions.json	DEBUG	Save changes
+1503484482839	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1503484482839	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1503484482862	DeferredSave.extensions.json	DEBUG	Save changes
+1503484482862	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1503484482880	DeferredSave.extensions.json	DEBUG	Save changes
+1503484482881	addons.manager	DEBUG	Registering startup change 'installed' for fxdriver@googlecode.com
+1503484482882	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1503484482882	DeferredSave.extensions.json	DEBUG	Save changes
+1503484482883	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1503484482985	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1503484483150	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1503484483150	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1503484483151	DeferredSave.extensions.json	DEBUG	Save changes
+1503484483151	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1503484483152	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1503484483156	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1503484483158	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1503484483158	DeferredSave.extensions.json	DEBUG	Save changes
+1503484483158	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1503484483159	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1503484483164	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1503484483164	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1503484483165	DeferredSave.extensions.json	DEBUG	Save changes
+1503484483165	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1503484483166	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1503484483169	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1503484483169	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1503484483170	DeferredSave.extensions.json	DEBUG	Save changes
+1503484483170	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1503484483171	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1503484483173	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1503484483174	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1503484483174	DeferredSave.extensions.json	DEBUG	Save changes
+1503484483174	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1503484483175	DeferredSave.extensions.json	DEBUG	Save changes
+1503484483175	addons.xpi	DEBUG	Updating XPIState for {"id":"fxdriver@googlecode.com","syncGUID":"{187d4ce3-bcc9-4915-bb31-c1192cf4c3c9}","location":"app-profile","version":"3.4.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox WebDriver","description":"WebDriver implementation for Firefox","creator":"Simon Stewart","homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":true,"descriptor":"C:\\Users\\ABHINA~1\\AppData\\Local\\Temp\\anonymous8084310843757806897webdriver-profile\\extensions\\fxdriver@googlecode.com","installDate":1503484474606,"updateDate":1503484474606,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":3303362,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"48.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484483175	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{681ab7f7-91fd-42bc-af15-86a03daa00aa}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","installDate":1498667065000,"updateDate":1498667065000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484483176	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1503484483176	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{994f13d6-38a3-447e-9a7a-a8ddc71b082a}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1498667065000,"updateDate":1498667065000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484483176	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1503484483177	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{63cb18a7-4e87-43f1-9938-e9f2b7003787}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1498667066000,"updateDate":1498667066000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913906,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484483177	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1503484483178	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{1d99d458-292f-4007-a26d-4babffa1a398}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","installDate":1498667067000,"updateDate":1498667067000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484483179	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1503484483180	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{19612a4b-b866-4f7f-be84-7bbf795a6120}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","installDate":1498667066000,"updateDate":1498667066000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484483180	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1503484483181	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{e2e81e1a-2f40-4787-80ca-3b63dff02550}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1498667065000,"updateDate":1498667065000,"applyBackgroundUpdates":1,"skinnable":true,"size":8207,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1503484484227	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503484484229	DeferredSave.extensions.json	DEBUG	Save changes
+1503484484229	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1503484484229	addons.xpi-utils	DEBUG	Updating add-on states
+1503484484493	addons.xpi-utils	DEBUG	Writing add-ons list
+1503484484754	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1503484484756	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1503484484760	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1503484484763	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1503484484764	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1503484484766	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1503484484770	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1503484484772	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1503484484773	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1503484484774	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1503484484844	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1503484484845	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1503484484845	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1503484484845	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1503484484846	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1503484484848	addons.manager	DEBUG	Starting provider: GMPProvider
+1503484485334	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1503484485335	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1503484485335	addons.manager	DEBUG	Starting provider: PluginProvider
+1503484485335	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1503484485336	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1503484485336	addons.manager	DEBUG	Completed startup sequence
+1503484488174	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1503484488175	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1503484488175	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1503484490575	DeferredSave.extensions.json	DEBUG	Write succeeded
+1503484490575	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1503484490575	DeferredSave.extensions.json	DEBUG	Starting timer
+1503484490639	DeferredSave.extensions.json	DEBUG	Starting write
+1503484490645	addons.repository	DEBUG	No addons.json found.
+1503484490650	DeferredSave.addons.json	DEBUG	Save changes
+1503484490663	DeferredSave.addons.json	DEBUG	Starting timer
+1503484491355	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1503484491355	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1503484491355	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1503484491359	DeferredSave.addons.json	DEBUG	Starting write
+1503484491372	DeferredSave.extensions.json	DEBUG	Write succeeded
+1503484492233	DeferredSave.addons.json	DEBUG	Write succeeded
+[pool-1-thread-1] ERROR net.thucydides.core.webdriver.WebDriverFacade - FAILED TO CREATE NEW WEBDRIVER_DRIVER INSTANCE class org.openqa.selenium.firefox.FirefoxDriver: Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:135)
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:147)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:138)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:108)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:183)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:178)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:827)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:737)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:725)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc.CGLIB$is_the_home_page$4(<generated>)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc$$FastClassByCGLIB$$eafd4bf.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc.is_the_home_page(<generated>)
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)
+	at org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+	at net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:69)
+	at net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:52)
+	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)
+	... 39 more
+Caused by: java.lang.NullPointerException
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
+	at org.openqa.selenium.firefox.XpiDriverService.start(XpiDriverService.java:94)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	... 48 more
+]]></system-err>
+  </testcase>
+  <testcase name="When the user looks up the definition of the word &apos;apple&apos;" classname="FrameworkMavem.JBehave.steps.DefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user looks up the definition of the word 'apple' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the definition &apos;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&apos;" classname="FrameworkMavem.JBehave.steps.DefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Looking up the definition of &apos;apple&apos;" classname="Scenario: Looking up the definition of &apos;apple&apos;" time="22.202">
+    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
+</failure>
+    <system-out><![CDATA[
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:151)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:138)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:108)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:183)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:178)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:827)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:737)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:725)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc.CGLIB$is_the_home_page$4(<generated>)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc$$FastClassByCGLIB$$eafd4bf.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc.is_the_home_page(<generated>)
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...
+]]></system-out>
+  </testcase>
+  <testcase name="Given the user is on the Wikionary home page​" classname="FrameworkMavem.JBehave.steps.DefinitionSteps" time="20.366">
+    <error message="Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: net.thucydides.core.webdriver.UnsupportedDriverException: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: java.lang.NullPointerException
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+</error>
+    <system-out><![CDATA[Scenario: Looking up the definition of 'pear'
+Given the user is on the Wikionary home page (FAILED)
+(net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver)
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Looking up the definition of 'apple'
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Is the home page
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Looking up the definition of 'pear'
+-------------------------------------------------------------------(stories/consult_dictionary/LookupADefinition.story;Looking up the definition of 'pear')
+[GPU 8564] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1503484499778	addons.manager	DEBUG	Application has been upgraded
+1503484499857	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+1503484499859	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1503484499861	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1503484499863	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1503484499863	addons.manager	DEBUG	Starting provider: XPIProvider
+1503484499863	addons.xpi	DEBUG	startup
+1503484499864	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\ABHINA~1\AppData\Local\Temp\anonymous2953216071532160635webdriver-profile\extensions\fxdriver@googlecode.com
+1503484499864	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\ABHINA~1\AppData\Local\Temp\anonymous2953216071532160635webdriver-profile\extensions\webdriver-staging
+1503484499864	addons.xpi	INFO	Removing all system add-on upgrades.
+1503484499865	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1503484499866	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1503484499866	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1503484499867	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1503484499867	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1503484499867	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1503484499869	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1503484499869	addons.xpi	DEBUG	Skipping unavailable install location app-system-share
+1503484499869	addons.xpi	DEBUG	Skipping unavailable install location app-system-local
+1503484499869	addons.xpi	DEBUG	checkForChanges
+1503484499870	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1503484499870	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+1503484499871	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com in app-profile
+1503484499872	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1503484499878	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1503484499879	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1503484499879	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1503484499880	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1503484499880	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1503484499880	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1503484499881	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1503484499881	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1503484499882	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1503484499882	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1503484499882	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1503484499883	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503484499883	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"fxdriver@googlecode.com":{"d":"C:\\Users\\ABHINA~1\\AppData\\Local\\Temp\\anonymous2953216071532160635webdriver-profile\\extensions\\fxdriver@googlecode.com","st":1503484497287,"mt":1503484497271}},"app-system-defaults":{"aushelper@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","st":1498667065000},"e10srollout@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","st":1498667065000},"firefox@getpocket.com":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","st":1498667066000},"screenshots@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","st":1498667067000},"webcompat@mozilla.org":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","st":1498667066000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1498667065000}}}
+1503484499894	addons.xpi-utils	DEBUG	Opening XPI database C:\Users\ABHINA~1\AppData\Local\Temp\anonymous2953216071532160635webdriver-profile\extensions.json
+1503484499898	addons.xpi-utils	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1503484499912	addons.xpi	WARN	Add-on fxdriver@googlecode.com is not correctly signed.
+1503484499913	addons.xpi	WARN	Add-on fxdriver@googlecode.com is not correctly signed.
+1503484499914	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499915	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1503484499926	DeferredSave.extensions.json	DEBUG	Starting timer
+1503484499929	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499929	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1503484499934	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499935	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+1503484499949	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499949	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1503484499966	DeferredSave.extensions.json	DEBUG	Starting write
+1503484499969	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499969	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1503484499969	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1503484499972	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499973	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1503484499975	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499976	addons.manager	DEBUG	Registering startup change 'installed' for fxdriver@googlecode.com
+1503484499976	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+1503484499976	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499976	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1503484499983	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1503484499986	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1503484499986	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1503484499986	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499987	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1503484499987	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1503484499989	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.50
+1503484499995	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1503484499995	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499995	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1503484499996	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1503484499998	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1503484499998	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1503484499999	DeferredSave.extensions.json	DEBUG	Save changes
+1503484499999	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1503484499999	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1503484500001	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 6.6.0
+1503484500001	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1503484500002	DeferredSave.extensions.json	DEBUG	Save changes
+1503484500002	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1503484500002	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1503484500005	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1503484500005	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1503484500005	DeferredSave.extensions.json	DEBUG	Save changes
+1503484500005	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1503484500006	DeferredSave.extensions.json	DEBUG	Save changes
+1503484500006	addons.xpi	DEBUG	Updating XPIState for {"id":"fxdriver@googlecode.com","syncGUID":"{6666d602-9e65-4b44-baf3-96697a6f5578}","location":"app-profile","version":"3.4.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox WebDriver","description":"WebDriver implementation for Firefox","creator":"Simon Stewart","homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":true,"descriptor":"C:\\Users\\ABHINA~1\\AppData\\Local\\Temp\\anonymous2953216071532160635webdriver-profile\\extensions\\fxdriver@googlecode.com","installDate":1503484497287,"updateDate":1503484497287,"applyBackgroundUpdates":1,"bootstrap":false,"skinnable":false,"size":3303362,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"3.0","maxVersion":"48.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484500006	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{6d8508a4-bf2c-4f9f-9e5f-ecfdf7dcda1b}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\aushelper@mozilla.org.xpi","installDate":1498667065000,"updateDate":1498667065000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484500006	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+1503484500007	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{8c058bdd-fd71-4a0f-834e-6f05560b096d}","location":"app-system-defaults","version":"1.50","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\e10srollout@mozilla.org.xpi","installDate":1498667065000,"updateDate":1498667065000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":12519,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484500007	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+1503484500007	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{03dd51bc-433a-4eb4-91ad-7a92c8cceaa7}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\firefox@getpocket.com.xpi","installDate":1498667066000,"updateDate":1498667066000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":913906,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484500007	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+1503484500008	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{635f093e-dfd8-4cfb-8df1-a6205ce7d77d}","location":"app-system-defaults","version":"6.6.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\screenshots@mozilla.org.xpi","installDate":1498667067000,"updateDate":1498667067000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":716271,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484500010	addons.xpi	DEBUG	getModTime: Recursive scan of screenshots@mozilla.org
+1503484500010	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{79ad6136-9e11-4862-bdf5-bed96d7e74ff}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","installDate":1498667066000,"updateDate":1498667066000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":9006,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null}
+1503484500010	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+1503484500010	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{2f3d1624-3ef7-4b7b-a049-6e06004a7225}","location":"app-global","version":"54.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1498667065000,"updateDate":1498667065000,"applyBackgroundUpdates":1,"skinnable":true,"size":8207,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"54.0.1","maxVersion":"54.0.1"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null}
+1503484500011	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1503484500012	DeferredSave.extensions.json	DEBUG	Save changes
+1503484500012	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1503484500012	addons.xpi-utils	DEBUG	Updating add-on states
+1503484500015	addons.xpi-utils	DEBUG	Writing add-ons list
+1503484500023	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1503484500023	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1503484500024	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1503484500025	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.50
+1503484500026	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1503484500026	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1503484500027	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1503484500028	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 6.6.0
+1503484500028	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1503484500028	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1503484500033	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1503484500033	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1503484500033	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1503484500033	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1503484500033	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1503484500034	addons.manager	DEBUG	Starting provider: GMPProvider
+1503484500046	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1503484500046	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1503484500046	addons.manager	DEBUG	Starting provider: PluginProvider
+1503484500047	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1503484500047	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1503484500047	addons.manager	DEBUG	Completed startup sequence
+1503484501371	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1503484501371	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1503484501371	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1503484503102	DeferredSave.extensions.json	DEBUG	Write succeeded
+1503484503102	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 19
+1503484503103	DeferredSave.extensions.json	DEBUG	Starting timer
+1503484503125	DeferredSave.extensions.json	DEBUG	Starting write
+1503484503159	addons.repository	DEBUG	No addons.json found.
+1503484503160	DeferredSave.addons.json	DEBUG	Save changes
+1503484503163	DeferredSave.addons.json	DEBUG	Starting timer
+1503484503271	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1503484503272	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1503484503272	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1503484503274	DeferredSave.addons.json	DEBUG	Starting write
+1503484503290	DeferredSave.extensions.json	DEBUG	Write succeeded
+1503484503540	DeferredSave.addons.json	DEBUG	Write succeeded
+[GPU 16552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[pool-1-thread-1] ERROR net.thucydides.core.webdriver.WebDriverFacade - FAILED TO CREATE NEW WEBDRIVER_DRIVER INSTANCE class org.openqa.selenium.firefox.FirefoxDriver: Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:135)
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:147)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:138)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:108)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:183)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:178)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:827)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:737)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:725)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc.CGLIB$is_the_home_page$4(<generated>)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc$$FastClassByCGLIB$$eafd4bf.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc.is_the_home_page(<generated>)
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1090)
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:955)
+	at org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:994)
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:904)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:825)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:798)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:422)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:393)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+	at net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:69)
+	at net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:52)
+	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:125)
+	... 39 more
+Caused by: java.lang.NullPointerException
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:192)
+	at org.openqa.selenium.firefox.XpiDriverService.start(XpiDriverService.java:94)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	... 48 more
+]]></system-err>
+  </testcase>
+  <testcase name="When the user looks up the definition of the word &apos;pear&apos;" classname="FrameworkMavem.JBehave.steps.DefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user looks up the definition of the word 'pear' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Then they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;" classname="FrameworkMavem.JBehave.steps.DefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Looking up the definition of &apos;pear&apos;" classname="Scenario: Looking up the definition of &apos;pear&apos;" time="20.377">
+    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
+</failure>
+    <system-out><![CDATA[
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:151)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:138)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:108)
+	at net.thucydides.core.webdriver.WebDriverFacade.openIgnoringHtmlUnitScriptErrors(WebDriverFacade.java:183)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:178)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:827)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:737)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:725)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc.CGLIB$is_the_home_page$4(<generated>)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc$$FastClassByCGLIB$$eafd4bf.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:395)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:380)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:355)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at FrameworkMavem.JBehave.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f3d405dc.is_the_home_page(<generated>)
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:733)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:346)
+...
+]]></system-out>
+  </testcase>
+  <testcase name="LookupADefinition.story" classname="LookupADefinition.story" time="20.389">
+    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
+</failure>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Looking up the definition of 'pear'
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Is the home page
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+]]></system-err>
+  </testcase>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.001"/>
+  <testcase name="FrameworkMavem.JBehave.AcceptanceTestSuite" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="2.363">
+    <error message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: &#10;org.jbehave.core.embedder.PerformableTree$SomethingHappened@1d0a5a8c: net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver" type="java.lang.RuntimeException">java.lang.RuntimeException: 
+org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@1d0a5a8c: net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+Caused by: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: 
+Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@1d0a5a8c: net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+</error>
+    <system-out><![CDATA[Generating reports view to 'C:\Users\Abhinav_Mishra\eclipse-workspace\JBehave\target\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+Reports view generated with 2 stories (of which 0 pending) containing 2 scenarios (of which 0 pending)
+Failures in reports view: 2 scenarios failed
+]]></system-out>
+    <system-err><![CDATA[[pool-2-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Looking up the definition of 'pear' to file C:\Users\Abhinav_Mishra\eclipse-workspace\JBehave\target\site\serenity\73b71db3808751649ad1d396806ba60601209de5c1e72dda0416d0e7da794e84.json (using temp file C:\Users\Abhinav_Mishra\eclipse-workspace\JBehave\target\site\serenity\73b71db3808751649ad1d396806ba60601209de5c1e72dda0416d0e7da794e84.json5052f730-2784-4fcb-b088-0ab9b8619a69)
+[pool-2-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Looking up the definition of 'apple' to file C:\Users\Abhinav_Mishra\eclipse-workspace\JBehave\target\site\serenity\7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.json (using temp file C:\Users\Abhinav_Mishra\eclipse-workspace\JBehave\target\site\serenity\7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.json03ef08cf-b726-4573-89b8-a028b8501ffc)
+[pool-3-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Lookup a definition:Looking up the definition of 'apple' in 7bc5b53c8b65feafe5083f6f59db464256eae77ff0f45b7699afa51e098a3a74.html in directory target\site\serenity  
+[pool-3-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Lookup a definition:Looking up the definition of 'pear' in 73b71db3808751649ad1d396806ba60601209de5c1e72dda0416d0e7da794e84.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+</testsuite>

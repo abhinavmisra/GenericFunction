@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------
+Test set: FrameworkMavem.JBehave.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 3, Skipped: 4, Time elapsed: 48.867 sec <<< FAILURE! - in FrameworkMavem.JBehave.AcceptanceTestSuite
+Given the user is on the Wikionary home page(FrameworkMavem.JBehave.steps.DefinitionSteps)  Time elapsed: 21.964 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: net.thucydides.core.webdriver.UnsupportedDriverException: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: java.lang.NullPointerException
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+
+Scenario: Looking up the definition of 'apple'  Time elapsed: 22.202 sec  <<< FAILURE!
+java.lang.AssertionError: scenario failed!
+
+Given the user is on the Wikionary home page?(FrameworkMavem.JBehave.steps.DefinitionSteps)  Time elapsed: 20.366 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: net.thucydides.core.webdriver.UnsupportedDriverException: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'EPINHYDW0040', ip: '10.71.9.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: FirefoxDriver
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+Caused by: java.lang.NullPointerException
+	at FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)
+
+Scenario: Looking up the definition of 'pear'  Time elapsed: 20.377 sec  <<< FAILURE!
+java.lang.AssertionError: scenario failed!
+
+LookupADefinition.story  Time elapsed: 20.389 sec  <<< FAILURE!
+java.lang.AssertionError: story failed!
+
+FrameworkMavem.JBehave.AcceptanceTestSuite  Time elapsed: 2.363 sec  <<< ERROR!
+java.lang.RuntimeException: 
+org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@1d0a5a8c: net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+Caused by: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: 
+Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@1d0a5a8c: net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+

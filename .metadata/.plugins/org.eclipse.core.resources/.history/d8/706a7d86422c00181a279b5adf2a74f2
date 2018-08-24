@@ -1,0 +1,16 @@
+package com.function.generic;
+
+import java.util.HashMap;
+
+public class TestFinal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final HashMap ref = new HashMap();
+		ref.put("abc", 123);
+		ref.put(1, "abcd");
+		ref.put("2", "2");
+		ref.put("3", 123);
+	}
+
+}

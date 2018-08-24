@@ -1,0 +1,39 @@
+package com.function.generic;
+
+public class RailCipher {
+	
+	public static String Decryption(String cipherText,int depth)throws Exception
+	 {
+	  int r=depth,len=cipherText.length();
+	  int c=len/depth;
+	  char mat[][]=new char[r][c];
+	  int k=0;
+	   
+	  String plainText="";
+	   
+	   
+	  for(int i=0;i< r;i++)
+	  {
+	   for(int j=0;j< c;j++)
+	   {
+	    mat[i][j]=cipherText.charAt(k++);
+	   }
+	  }
+	  for(int i=0;i< c;i++)
+	  {
+	   for(int j=0;j< r;j++)
+	   {
+	    plainText+=mat[j][i];
+	   }
+	  }
+	   
+	  return plainText;
+	 }
+
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		System.out.println("Data is "+RailCipher.Decryption("rcrl p idoi s  reitcuk yhaiirnaaoycaanee calamlaeto einrtwyakodttcymsgv hahpt edirptisgfv faeig s ncn o o nie hi sanietnpndct ohoot tephnp s eneten eyenct sse ed   d s rs gsutrtslfcpsascds acy nrpagmnu i cyeetdaeni tdifl s nig e s nyuratiyuwrrt orcwr i i drayl rsr eg a iuenmiaoehoeagee", 20) );
+	}
+
+}

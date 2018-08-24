@@ -1,0 +1,24 @@
+package com.function.generic;
+
+import java.io.File;
+
+public class FileRename {
+	
+	public int getCountOfFilesInDir(File file) {
+		int noOfFiles;
+		File[] files = file.listFiles();
+		  int count = 0;
+		  for (File f : files)
+		    if (f.isDirectory())
+		      count += getFilesCount(f);
+		    else
+		      count++;
+		return noOfFiles;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

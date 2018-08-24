@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Lookup a definition" skipped="0" tests="2" time="42.75" timestamp="2017-08-23T16:04:32.850+05:30[Asia/Calcutta]"><testcase name="Looking up the definition of 'apple'"><error message="Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error><system-err>Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver&#13;
+FrameworkMavem.JBehave.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)&#13;
+FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)&#13;
+</system-err></testcase><testcase name="Looking up the definition of 'pear'"><error message="Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error><system-err>Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver&#13;
+FrameworkMavem.JBehave.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)&#13;
+FrameworkMavem.JBehave.steps.DefinitionSteps.givenTheUserIsOnTheWikionaryHomePage(DefinitionSteps.java:17)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,15 @@
+package com.function.generic;
+
+public class FileRename {
+	
+	public void getCountOfFilesInDir(String filepath) {
+		int noOfFiles;
+		//return noOfFiles;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

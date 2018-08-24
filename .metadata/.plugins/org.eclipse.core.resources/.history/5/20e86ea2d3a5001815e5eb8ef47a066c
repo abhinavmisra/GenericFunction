@@ -1,0 +1,30 @@
+package com.function.generic;
+
+
+class c1 {
+	public void m1() {
+		System.out.println("m1 method");
+	}
+}
+
+
+class c2 extends c1 {
+	@Override
+	public void m1() {
+		System.out.println("m1 method overriding");
+
+	}
+}
+
+
+public class TestPoly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Runtime Polymorphism
+		
+		c1 ref = new c1();
+		ref.m1();
+	}
+
+}

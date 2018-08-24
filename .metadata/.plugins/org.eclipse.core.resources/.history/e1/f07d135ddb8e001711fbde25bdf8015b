@@ -1,0 +1,31 @@
+package com.function.generic;
+
+public class PrimeProbability {
+	
+	static boolean isPrime(long n) {
+		  int perfect_modulo = 0;
+		  boolean prime = false;
+
+		  for ( int i = 1; i <=  n; i++ ) {
+		    if ( n % i == 0 ) {
+		      perfect_modulo += 1;
+		    }
+		  }
+		  if ( perfect_modulo == 2 ) {
+		    prime = true;
+		  }
+
+		  return prime;
+		}
+	
+	public static int MethodPrimeProbabilty() {
+		int probability=0;
+		return probability;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

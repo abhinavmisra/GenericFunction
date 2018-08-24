@@ -1,0 +1,29 @@
+package com.function.generic;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class TestFinal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final HashMap<Object, Object> ref = new HashMap();
+		ref.put(1, "23");
+		ref.put("5", "25");
+		ref.put("2", "2");
+		ref.put("3", "123");
+		
+		//ref.forEach((k,v)-> System.out.println(k+":"+v));
+		
+		TreeMap<Object, Object> refT = new TreeMap();
+		for(Map.Entry m:ref.entrySet()) {
+			refT.put(m.getValue(), m.getKey());
+		}
+		System.out.println("Sorted by values "+refT);
+		/*refT.forEach((k,v)-> System.out.println(k+":"+v));*/
+		
+
+	}
+
+}

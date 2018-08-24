@@ -1,0 +1,23 @@
+package com.function.generic;
+
+public class StaticNested {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StaticNested ref = new StaticNested();
+		ref.new Inner();
+		Object o;
+		o=ref.new Inner().new Private();
+		System.out.println(7 + " is " + ((com.function.generic.StaticNested.Inner.Private) o).powerof2(7));
+		
+
+	}
+	static class Inner{
+		private class Private{
+			private String powerof2(int num){
+				return ((num&num-1)==0)?"power of 2":"not a power of 2";
+			}
+		}
+	}
+
+}
