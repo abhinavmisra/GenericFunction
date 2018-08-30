@@ -30,7 +30,7 @@ class Movie implements Comparable<Movie>{
 	}
 }
 
-class RatingCompare implements Comparator<Movie>{
+/*class RatingCompare implements Comparator<Movie>{
 
 	@Override
 	public int compare(Movie m1, Movie m2) {
@@ -53,7 +53,7 @@ class YearCompare implements Comparator<Movie>{
 		if(m1.getYear() > m2.getYear()) return 1;
 		else return 0;
 	}
-}
+}*/
 
 class ComparableClass {
 	public static void main(String[] args) {
@@ -63,12 +63,12 @@ class ComparableClass {
         list.add(new Movie("Star Wars", 8.7, 1977));
         list.add(new Movie("Empire Strikes Back", 8.8, 1980));
         list.add(new Movie("Return of the Jedi", 8.4, 1983));
-        NameCompare nc = new NameCompare();
+        /*NameCompare nc = new NameCompare();
         RatingCompare rc = new RatingCompare();
-        YearCompare yc = new YearCompare();
+        YearCompare yc = new YearCompare();*/
         /*Collections.sort(list, nc);
         Collections.sort(list, rc);*/
-        Collections.sort(list, yc);
+        Collections.sort(list);
         System.out.println("Movie after sorting");
         for(Movie M : list) {
         	System.out.println(M.getName()+" "+M.getRate());
