@@ -9,7 +9,7 @@ public class FileRename {
     {
 
         String folder_path =
-               "D:\\Radian";
+               "F:\\ServiceJS";
  
        
         File myfolder = new File(folder_path);
@@ -26,7 +26,7 @@ public class FileRename {
                 String long_file_name = file_array[i].getName();
                 String new_file_name = "Parallel6_";
                 String formattedNum = String.format("%03d", j);
-                myfile.renameTo(new File(folder_path+"\\"+ new_file_name+formattedNum+ ".xml"));
+                myfile.renameTo(new File(folder_path+"\\"+ new_file_name+formattedNum+ ".jpeg"));
                 j++;
             }
         }

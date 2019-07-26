@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -30,11 +29,15 @@ public class DuplicateList {
 				System.out.println(name[i]+" - "+count);
 			}count=1;
 		}*/
+		Map<Integer, String> refMap = new HashMap<>();
 		Set<String> unique = new HashSet<String>(nameList);
 		for (String value : unique) {
 		    System.out.println(value + ": " + Collections.frequency(nameList, value));
+		    refMap.put(Collections.frequency(nameList, value), value);
+
 		}
-		
+
+
 		for(String name : nameList) {
 			if(name.charAt(0)=='B'||name.charAt(0)=='B') {
 				System.out.println("name is "+name);

@@ -6,7 +6,7 @@ public class BinarySearch {
 		 int l=0;
 		 int r = len-1;
 		 while(l<=r) {
-			 int mid = l+(r-l)/2;
+			 int mid = l+(r-l)/2; //To avoid overflow if the array to be searched is large
 			 if(arr[mid]==value) {
 				 return mid;
 			 }
