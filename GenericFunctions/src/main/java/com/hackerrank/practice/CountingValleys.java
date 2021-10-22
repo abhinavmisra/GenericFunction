@@ -1,0 +1,18 @@
+package com.hackerrank.practice;
+
+public class CountingValleys {
+    public static void main(String[] args) {
+        String s = "UDDDUDUU";
+        int v = 0;     // # of valleys
+        int lvl = 0;   // current level
+        for(char c : s.toCharArray()){
+            if(c == 'U') ++lvl;
+            if(c == 'D') --lvl;
+
+            // if we just came UP to sea level
+            if(lvl == 0 && c == 'U')
+                ++v;
+        }
+        System.out.print(v);
+    }
+}
